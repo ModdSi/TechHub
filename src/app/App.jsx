@@ -17,7 +17,15 @@ function App() {
 
   if (isMobile) {
     return (
-      <div style={{ textAlign: "center", marginTop: "40vh", padding: "20px" }}>
+      <div
+        style={{
+          textAlign: "center",
+          marginTop: "40vh",
+          padding: "20px",
+          background: "#333333",
+          color: "#fffff",
+        }}
+      >
         <h1>Phone screens aren't supported yet</h1>
         <p>Please use a larger device.</p>
       </div>
