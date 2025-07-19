@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "../assets/TH logo.png";
 import squares from "../assets/squares.png";
 import comunity from "../assets/comunity.png";
 import courses from "../assets/courses.png";
@@ -11,16 +10,6 @@ import "../style/App.css";
 function Home() {
   return (
     <>
-      <header>
-        <img id="logo" src={logo} />
-        <div>
-          <button id="buttons">HOME</button>
-          <button id="buttons">ABOUT</button>
-          <button id="buttons">SERVICES</button>
-          <button id="buttons">COMMUNITY</button>
-        </div>
-      </header>
-
       <main>
         <div className="hero">
           <h1>
@@ -96,25 +85,6 @@ function Home() {
           </div>
         </div>
       </main>
-
-      <footer>
-        <div>
-          <button id="buttons">ABOUT</button>
-          <button id="buttons">COURSES</button>
-          <button id="buttons">CONTACT</button>
-        </div>
-        <p
-          style={{
-            color: "#333333",
-            fontFamily: "LamaSans",
-            fontWeight: "bold",
-            fontSize: "larger",
-            margin: "30px",
-          }}
-        >
-          © 2025 Tech Hub
-        </p>
-      </footer>
     </>
   );
 }

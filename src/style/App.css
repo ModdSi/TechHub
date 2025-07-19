@@ -19,3 +19,22 @@ body {
   src: url("../fonts/LamaSans-SemiBold.ttf");
   font-weight: bold;
 }
+
+#about {
+  /* background-color: #333333; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#h-ab {
+  color: #333333;
+}
+#p-ab {
+  color: #333333;
+  text-align: center;
+  font-size: larger;
+  font-weight: normal;
+}

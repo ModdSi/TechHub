@@ -1,0 +1,33 @@
+#buttons {
+  color: #333333;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: larger;
+  font-family: "LamaSans";
+  font-weight: normal;
+  margin-inline: 20px;
+  margin-top: 50px;
+  transition: color 0.9s;
+  text-decoration: none;
+}
+
+.btns {
+  margin-top: 50px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 350px;
+}
+#buttons:hover {
+  color: rgb(191, 191, 191);
+  transition: color 0.1s;
+}
+
+#logo {
+  height: 160px;
+}
