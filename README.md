@@ -2,7 +2,7 @@
 
 This Repo provides projects and stuff i worked on during the bootcamp.
 
-Currently working on a react landing page for the Tech hub program as a project
+Currently working on a react landing page for the Tech hub program as a project.
 contains:
 - routing
 - some hooks
