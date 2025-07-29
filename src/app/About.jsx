@@ -1,7 +1,7 @@
 import "../style/App.css";
 function About() {
   return (
-    <>
+    <div className="cont">
       <div id="about">
         <h1 id="h-ab">About</h1>
         <p id="p-ab">
@@ -13,7 +13,7 @@ function About() {
           impactful solutions.
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

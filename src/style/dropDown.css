@@ -1,0 +1,50 @@
+.options-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  rotate: 90deg;
+}
+
+.menu-button:hover {
+  color: rgb(189, 189, 189);
+}
+
+.dropdown {
+  position: absolute;
+  right: 10;
+  margin-top: 6px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  min-width: 140px;
+  z-index: 1000;
+  font-family: "lamaSans";
+}
+
+.dropdown a,
+.dropdown button {
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  background: white;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: black;
+}
+
+.dropdown a:hover,
+.dropdown button:hover {
+  color: rgb(189, 189, 189);
+}

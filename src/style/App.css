@@ -22,8 +22,7 @@ body {
 
 #about {
   /* background-color: #333333; */
-  width: 100%;
-
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,4 +36,11 @@ body {
   text-align: center;
   font-size: larger;
   font-weight: normal;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

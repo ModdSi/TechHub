@@ -31,3 +31,22 @@ header {
 #logo {
   height: 160px;
 }
+
+@media (max-width: 638px) {
+  header {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 90px;
+  }
+  .btns {
+    display: none;
+    margin-top: 50px;
+  }
+  #logo {
+    height: 70px;
+    margin: 0;
+  }
+}

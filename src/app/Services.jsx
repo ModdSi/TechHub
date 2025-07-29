@@ -1,7 +1,7 @@
 import "../style/App.css";
 function Services() {
   return (
-    <>
+    <div className="cont">
       <div id="about">
         <h1 id="h-ab">Our Services</h1>
         <p id="p-ab">
@@ -11,7 +11,7 @@ function Services() {
           needed to turn ideas into impactful solutions.
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

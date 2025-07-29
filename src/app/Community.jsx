@@ -1,7 +1,7 @@
 import "../style/App.css";
 function Community() {
   return (
-    <>
+    <div className="cont">
       <div id="about">
         <h1 id="h-ab">Our Community</h1>
         <p id="p-ab">
@@ -18,7 +18,7 @@ function Community() {
           curiosity, creativity, and a shared love for technology.
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

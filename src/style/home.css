@@ -110,3 +110,10 @@ footer {
   align-items: center;
   background-color: none;
 }
+
+@media (max-width: 638px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
