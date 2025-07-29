@@ -80,6 +80,9 @@ span {
   margin-top: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
 }
 
 #card {
@@ -115,5 +118,15 @@ footer {
   .cards {
     display: flex;
     flex-direction: column;
+  }
+  #card {
+    height: 290px;
+    width: 350px;
+  }
+  p {
+    font-size: large;
+  }
+  h1 {
+    font-size: 30px;
   }
 }

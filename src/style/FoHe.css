@@ -50,3 +50,16 @@ header {
     margin: 0;
   }
 }
+
+@media (max-width: 468px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 90px;
+  }
+  #buttons {
+    margin: 4px;
+  }
+}
